@@ -5,7 +5,10 @@ function App() {
     <Router>
     <div className="App">
      <Routes>
-      <Route path={}>
+      <Route path='/' element></Route>
+      <Route path='/' element></Route>
+      <Route path='/' element></Route>
+      <Route path='/' element></Route>
      </Routes>
     </div>
     </Router>
