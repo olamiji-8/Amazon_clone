@@ -2,7 +2,10 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <nav className='header'>
+      <img src='' alt='' className='header__logo'/>
+      
+    </nav>
   )
 }
 
