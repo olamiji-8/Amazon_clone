@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Header.css"
 import Amazon from "../../Asset/amazon.png"
 
 const Header = () => {
