@@ -33,6 +33,18 @@ const Header = () => {
           <span>icon</span>
         </div>
       </div>
+      <div>
+        <span>icon</span>
+        <span>All</span>
+        <span>Today's Deals</span>
+        <span>Customer Service</span>
+        <span>Gift Cards</span>
+        <span>Registry</span>
+        <span>Sell</span>
+        <div>
+          <span>shop holiday fashion deals</span>
+        </div>
+      </div>
     </nav>
   )
 }
