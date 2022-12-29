@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Header.css"
 import Amazon from "../../Asset/amazon.png"
+import Flag from "../../Asset/american-usa-flag.png"
 import { Link } from 'react-router-dom'
  import SearchIcon from '@mui/icons-material/Search';
  import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
@@ -20,7 +21,7 @@ const Header = () => {
        </div>
       <div className='header__nav'>
         <div>
-          <img src=''alt=''/>
+          <img src={Flag}alt='flag' width="40px" height="84px"/>
           <span>EN</span>
           <span>icon</span>
         </div>
