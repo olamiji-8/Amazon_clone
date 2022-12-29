@@ -23,19 +23,19 @@ const Header = () => {
         <div>
           <img src={Flag}alt='flag' width="40px" height="84px"/>
           <span>EN</span>
-          <span>icon</span>
+          <span><ArrowDropDownIcon/></span>
         </div>
         <div>
           <span>Hello,sign in</span>
           <span>Account & Lists</span>
-          <span>icon</span>
+          <span><ArrowDropDownIcon/></span>
         </div>
         <div>
           <span>Returns</span>
           <span>& Orders</span>
         </div>
         <div>
-          <span>icon</span>
+          <span><AddShoppingCartIcon/></span>
         </div>
       </div>
       <div>
