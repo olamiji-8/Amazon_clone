@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom'
  import SearchIcon from '@mui/icons-material/Search';
  import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
  import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
+ import MenuIcon from '@mui/icons-material/Menu';
  
 
 const Header = () => {
@@ -39,7 +40,7 @@ const Header = () => {
         </div>
       </div>
       <div>
-        <span>icon</span>
+        <span><MenuIcon/></span>
         <span>All</span>
         <span>Today's Deals</span>
         <span>Customer Service</span>
