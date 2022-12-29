@@ -3,6 +3,8 @@ import "./Header.css"
 import Amazon from "../../Asset/amazon.png"
 import { Link } from 'react-router-dom'
  import SearchIcon from '@mui/icons-material/Search';
+ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+ import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
  
 
 const Header = () => {
