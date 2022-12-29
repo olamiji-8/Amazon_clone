@@ -13,7 +13,7 @@ const Header = () => {
       </Link>
 
       <input type="text" className='header__searchInput'/>
-       <SearchIcon style={{backgroundColor:"white",size:"20px"}}/> 
+       <SearchIcon className='header__searchIcon'/> 
 
       <div className='header__nav'>
         <div>

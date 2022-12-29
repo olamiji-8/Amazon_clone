@@ -2,4 +2,11 @@
     background-color:#231f20 ;
     height: 5rem;
     margin-top: 0px;
+    display: flex;
+}
+.header__searchIcon{
+    background-color: #cd9042;
+}
+.header__searchInput{
+    display: flex;
 }
