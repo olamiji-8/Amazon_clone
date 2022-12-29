@@ -2,7 +2,7 @@ import React from 'react'
 import "./Header.css"
 import Amazon from "../../Asset/amazon.png"
 import { Link } from 'react-router-dom'
-// import SearchIcon from '@mui/icons-material/Search';
+ import SearchIcon from '@mui/icons-material/Search';
 
 const Header = () => {
   return (
@@ -12,7 +12,7 @@ const Header = () => {
       </Link>
 
       <input type="text" className='header__searchInput'/>
-      {/* <SearchIcon/> */}
+       <SearchIcon /> 
 
       <div className='header__nav'>
         <div>
