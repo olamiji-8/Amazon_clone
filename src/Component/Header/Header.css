@@ -9,5 +9,8 @@
     background-color: #cd9042;
 }
 .header__searchInput{
-    display: flex;
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
 }
