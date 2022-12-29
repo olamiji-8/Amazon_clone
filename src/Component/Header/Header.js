@@ -9,10 +9,11 @@ const Header = () => {
   return (
     <nav className='header'>
       <Link to= "/"> 
-      <img src={Amazon} alt='logo' className='header__logo' width="140px" height="70px" style={{marginTop:"0px", cursor:"pointer"}}/>
+      <img src={Amazon} alt='logo' className='header__logo' width="140px" height="84px" style={{marginTop:"0px", cursor:"pointer"}}/>
       </Link>
-      <div className='header__search'>
+      
       <input type="text" className='header__searchInput'/>
+      <div className='header__search'>
        <SearchIcon className='header__searchIcon'/> 
        </div>
       <div className='header__nav'>
