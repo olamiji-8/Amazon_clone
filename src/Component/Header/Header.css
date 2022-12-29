@@ -3,6 +3,7 @@
     height: 5rem;
     margin-top: 0px;
     display: flex;
+    align-items: center;
 }
 .header__searchIcon{
     background-color: #cd9042;
