@@ -3,6 +3,7 @@ import "./Header.css"
 import Amazon from "../../Asset/amazon.png"
 import { Link } from 'react-router-dom'
  import SearchIcon from '@mui/icons-material/Search';
+ 
 
 const Header = () => {
   return (
@@ -12,7 +13,7 @@ const Header = () => {
       </Link>
 
       <input type="text" className='header__searchInput'/>
-       <SearchIcon /> 
+       <SearchIcon style={{backgroundColor:"white",size:"20px"}}/> 
 
       <div className='header__nav'>
         <div>
