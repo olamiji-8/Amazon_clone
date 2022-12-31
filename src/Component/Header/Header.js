@@ -40,8 +40,7 @@ const Header = () => {
           <span><AddShoppingCartIcon/></span>
         </div>
       </div>
-      </nav>
-      <div>
+      <div className='down'>
         <span><MenuIcon/></span>
         <span>All</span>
         <span>Today's Deals</span>
@@ -53,6 +52,7 @@ const Header = () => {
           <span>shop holiday fashion deals</span>
         </div>
       </div>
+    </nav>
     </div>
   )
 }
