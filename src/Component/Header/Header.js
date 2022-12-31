@@ -11,6 +11,7 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
+    <div>
     <nav className='header'>
       <Link to= "/"> 
       <img src={Amazon} alt='logo' className='header__logo' width="140px" height="84px" style={{marginTop:"0px", cursor:"pointer"}}/>
@@ -39,6 +40,7 @@ const Header = () => {
           <span><AddShoppingCartIcon/></span>
         </div>
       </div>
+      </nav>
       <div>
         <span><MenuIcon/></span>
         <span>All</span>
@@ -51,7 +53,7 @@ const Header = () => {
           <span>shop holiday fashion deals</span>
         </div>
       </div>
-    </nav>
+    </div>
   )
 }
 
