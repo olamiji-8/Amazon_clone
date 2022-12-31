@@ -11,8 +11,8 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
-    <div>
-    <nav className='header'>
+    <div className='header'>
+    <nav className='header__flex'>
       <Link to= "/"> 
       <img src={Amazon} alt='logo' className='header__logo' width="140px" height="84px" style={{marginTop:"0px", cursor:"pointer"}}/>
       </Link>

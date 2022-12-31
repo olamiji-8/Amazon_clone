@@ -23,3 +23,6 @@
 .header__logo{
     object-fit: contain;
 }
+.header__flex{
+    display: flex;
+}
