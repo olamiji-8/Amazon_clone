@@ -36,7 +36,7 @@ const Header = () => {
           <span>Returns</span>
           <span>& Orders</span>
         </div>
-        <div>
+        <div className='header__tr'>
           <span><AddShoppingCartIcon/></span>
         </div>
       </div>
