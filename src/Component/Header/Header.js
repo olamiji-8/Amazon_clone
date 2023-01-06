@@ -5,7 +5,7 @@ import Flag from "../../Asset/american-usa-flag.png"
 import { Link } from 'react-router-dom'
  import SearchIcon from '@mui/icons-material/Search';
  import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
- import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
+ import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
  import LocationOnIcon from '@mui/icons-material/LocationOn';
  import MenuIcon from '@mui/icons-material/Menu';
  
@@ -47,14 +47,16 @@ const Header = () => {
         <div className='header__sigin'>
           <p>Hello,sign in</p>
           <p>Account & Lists</p>
-          <span><ArrowDropDownIcon/></span>
+          <ArrowDropDownIcon className='header__dropdown__icon'/>
         </div>
         <div className='header__order'>
           <p>Returns</p>
           <p>& Orders</p>
         </div>
         <div className='header__cart'>
-          <AddShoppingCartIcon className='header__cart__icon'/>
+          <span className='header__counter'>0</span>
+          <ShoppingCartOutlinedIcon style={{fontSize:"40px"}} className='header__cart__icon'/>
+          <p>Cart</p>
         </div>
       </div>
       <div>

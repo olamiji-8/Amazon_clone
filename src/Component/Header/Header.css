@@ -61,6 +61,33 @@ p{
 .header__sigin{
     position: absolute;
     color: white;
-    margin-top: -4%;
-    margin-left: 4%;
+    margin-top: -6%;
+    margin-left: 8%;
+}
+.header__order{
+    position: absolute;
+    color: white;
+    margin-left: 18%;
+    margin-top: -6%;
+}
+.header__cart{
+    position: absolute;
+    color: white;
+    margin-left: 26%;
+    margin-top: -6%;
+    display: flex;
+}
+.header__counter{
+    position: absolute;
+    margin-left: 26%;
+    margin-top: -18%;
+    color: #cd9042;
+}
+.foo{
+    text-align: center;
+}
+.header__dropdown__icon{
+    position: absolute;
+    margin-left: 80%;
+    width: 10%;
 }
