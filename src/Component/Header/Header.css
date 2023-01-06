@@ -6,6 +6,21 @@
     align-items: center;
     width: 100%;
 }
+.header__dropdown{
+    position: absolute;
+    margin-left: 16%;
+    height: 5.3%;
+    margin-top: -1.21%;
+    width: 4.8%;
+    padding: 0%;
+    cursor: pointer;
+    background-color: #F3F3F3;
+    text-align-last: center;
+    border-radius: 5px 0px 0px 5px;
+}
+.header__dropdown > option{
+    width: 20%;
+}
 .header__searchIcon{
     background-color: #cd9042;
     padding: 5px;

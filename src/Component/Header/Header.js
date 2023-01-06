@@ -24,6 +24,16 @@ const Header = () => {
           <p>Nigeria</p>
            </span>
       </div>
+      <div >
+        <select className='header__dropdown'>
+          <option value="All">All</option>
+          <option value="Alexa">Alexa</option>
+          <option value="Books">Books</option>
+          <option value="Baby">Baby</option>
+          <option value="Beauty">Beauty</option>
+          <option value="Cloth">Cloth</option>
+        </select>
+      </div>
       <input type="text" className='header__searchInput'/>
       <div className='header__search'>
        <SearchIcon className='header__searchIcon'/> 
