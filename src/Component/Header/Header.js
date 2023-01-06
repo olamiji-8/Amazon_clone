@@ -18,7 +18,7 @@ const Header = () => {
       <img src={Amazon} alt='logo' className='header__logo' width="140px" height="84px" style={{marginTop:"0px", cursor:"pointer"}}/>
       </Link>
       <div className='header__location'>
-        <span><LocationOnIcon/></span>
+        <span><LocationOnIcon className='header__location__icon'/></span>
         <span>Delivery to Nigeria</span>
       </div>
       <input type="text" className='header__searchInput'/>

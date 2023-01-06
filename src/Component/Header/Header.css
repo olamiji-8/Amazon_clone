@@ -26,3 +26,10 @@
 .header__flex{
     display: flex;
 }
+.header__location{
+    position: absolute;
+    color: white;
+}
+.header__location__icon{
+    color: white;
+}
