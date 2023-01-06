@@ -1,5 +1,7 @@
 import {BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 import Header from './Component/Header/Header';
+import Navbar from './Component/Navbar/Navbar';
+
 
 function App() {
   return (
@@ -7,7 +9,7 @@ function App() {
     <div className="App">
       <Router>
      <Routes>
-      <Route path='/' element={<Header/>}>
+      <Route path='/' element={<Navbar/>}>
         
       </Route>
       {/* <Route path='/' element></Route>

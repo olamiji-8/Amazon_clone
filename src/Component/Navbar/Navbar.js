@@ -1,19 +1,22 @@
 import React from 'react'
+import "./Navbar.css"
 import MenuIcon from '@mui/icons-material/Menu';
 
 const Navbar = () => {
   return (
     <div className='navbar'>
-        <span><MenuIcon/></span>
-        <span>All</span>
-        <span>Today's Deals</span>
-        <span>Customer Service</span>
-        <span>Gift Cards</span>
-        <span>Registry</span>
-        <span>Sell</span>
-        <div>
-          <span>shop holiday fashion deals</span>
+      <div>
+        <MenuIcon/>
+        <p>All</p>
         </div>
+        <p>Today's Deals</p>
+        <p>Customer Service</p>
+        <p>Gift Cards</p>
+        <p>Registry</p>
+        <span>Sell</span>
+        {/* <div>
+          <p>shop holiday fashion deals</p>
+        </div> */}
       </div>
   )
 }

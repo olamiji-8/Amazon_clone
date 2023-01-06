@@ -1,0 +1,7 @@
+.navbar{
+    display: flex;
+    gap: 12px;
+    background-color:#232F3E ;
+    width: 100%;
+    color: white;
+}
