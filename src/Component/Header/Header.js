@@ -7,15 +7,14 @@ import { Link } from 'react-router-dom'
  import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
  import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
  import LocationOnIcon from '@mui/icons-material/LocationOn';
- import MenuIcon from '@mui/icons-material/Menu';
+
  
 
 const Header = () => {
   return (
-    <div>
     <nav className='header'>
       <Link to= "/"> 
-      <img src={Amazon} alt='logo' className='header__logo' width="100%" height="84px" style={{marginTop:"0px", cursor:"pointer"}}/>
+      <img src={Amazon} alt='logo' className='header__logo' width="142px" height="84px" style={{marginTop:"0px", cursor:"pointer"}}/>
       </Link>
       <div className='header__location'>
         <span><LocationOnIcon className='header__location__icon'/></span>
@@ -40,7 +39,7 @@ const Header = () => {
        </div>
       <div className='header__nav'>
         <div>
-          <img src={Flag}alt='flag' width="40px" height="84px"/>
+          <img src={Flag}alt='flag' width="4px" height="84px"/>
           <span>EN</span>
           <span><ArrowDropDownIcon/></span>
         </div>
@@ -59,20 +58,7 @@ const Header = () => {
           <p>Cart</p>
         </div>
       </div>
-      <div>
-        <span><MenuIcon/></span>
-        <span>All</span>
-        <span>Today's Deals</span>
-        <span>Customer Service</span>
-        <span>Gift Cards</span>
-        <span>Registry</span>
-        <span>Sell</span>
-        <div>
-          <span>shop holiday fashion deals</span>
-        </div>
-      </div>
     </nav>
-    </div>
   )
 }
 
