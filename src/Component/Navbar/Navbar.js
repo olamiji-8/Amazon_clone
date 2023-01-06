@@ -5,18 +5,17 @@ import MenuIcon from '@mui/icons-material/Menu';
 const Navbar = () => {
   return (
     <div className='navbar'>
-      <div>
-        <MenuIcon/>
-        <p>All</p>
+      <div className='navbar__icon'>
+        <span><MenuIcon/></span>
+        <span>All</span>
         </div>
-        <p>Today's Deals</p>
-        <p>Customer Service</p>
-        <p>Gift Cards</p>
-        <p>Registry</p>
-        <span>Sell</span>
-        {/* <div>
-          <p>shop holiday fashion deals</p>
-        </div> */}
+        <div className='navbar__text'>
+        <p className='navbar__text__hover'>Today's Deals</p>
+        <p className='navbar__text__hover'>Customer Service</p>
+        <p className='navbar__text__hover'>Gift Cards</p>
+        <p className='navbar__text__hover'>Registry</p>
+        <p className='navbar__text__hover'>Sell</p>
+        </div>
       </div>
   )
 }
