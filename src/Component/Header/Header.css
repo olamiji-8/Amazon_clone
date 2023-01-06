@@ -4,12 +4,11 @@
     margin-top: 0px;
     display: flex;
     align-items: center;
-    width: 100%;
 }
 .header__dropdown{
     position: absolute;
     margin-left: 16%;
-    height: 5.3%;
+    height: 5.2%;
     margin-top: -1.21%;
     width: 4.8%;
     padding: 0%;
@@ -17,9 +16,6 @@
     background-color: #F3F3F3;
     text-align-last: center;
     border-radius: 5px 0px 0px 5px;
-}
-.header__dropdown > option{
-    width: 20%;
 }
 .header__searchIcon{
     background-color: #cd9042;
@@ -49,7 +45,6 @@
     color: white;
     margin-left: 8%;
     display: flex;
-    width: 100%;
 }
 .header__location__icon{
     color: white;
@@ -62,4 +57,10 @@
 p{
     margin: 0px;
     padding: 0px;
+}
+.header__sigin{
+    position: absolute;
+    color: white;
+    margin-top: -4%;
+    margin-left: 4%;
 }

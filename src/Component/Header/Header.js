@@ -44,17 +44,17 @@ const Header = () => {
           <span>EN</span>
           <span><ArrowDropDownIcon/></span>
         </div>
-        <div>
-          <span>Hello,sign in</span>
-          <span>Account & Lists</span>
+        <div className='header__sigin'>
+          <p>Hello,sign in</p>
+          <p>Account & Lists</p>
           <span><ArrowDropDownIcon/></span>
         </div>
-        <div>
-          <span>Returns</span>
-          <span>& Orders</span>
+        <div className='header__order'>
+          <p>Returns</p>
+          <p>& Orders</p>
         </div>
-        <div>
-          <span><AddShoppingCartIcon/></span>
+        <div className='header__cart'>
+          <AddShoppingCartIcon className='header__cart__icon'/>
         </div>
       </div>
       <div>
