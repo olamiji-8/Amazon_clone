@@ -15,11 +15,14 @@ const Header = () => {
     <div>
     <nav className='header'>
       <Link to= "/"> 
-      <img src={Amazon} alt='logo' className='header__logo' width="140px" height="84px" style={{marginTop:"0px", cursor:"pointer"}}/>
+      <img src={Amazon} alt='logo' className='header__logo' width="100%" height="84px" style={{marginTop:"0px", cursor:"pointer"}}/>
       </Link>
       <div className='header__location'>
         <span><LocationOnIcon className='header__location__icon'/></span>
-        <span>Delivery to Nigeria</span>
+        <span  className='header__location__text'>
+          <p>Delivery to</p> 
+          <p>Nigeria</p>
+           </span>
       </div>
       <input type="text" className='header__searchInput'/>
       <div className='header__search'>
