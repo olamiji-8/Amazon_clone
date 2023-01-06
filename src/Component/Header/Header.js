@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom'
  import SearchIcon from '@mui/icons-material/Search';
  import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
  import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
+ import LocationOnIcon from '@mui/icons-material/LocationOn';
  import MenuIcon from '@mui/icons-material/Menu';
  
 
@@ -16,7 +17,10 @@ const Header = () => {
       <Link to= "/"> 
       <img src={Amazon} alt='logo' className='header__logo' width="140px" height="84px" style={{marginTop:"0px", cursor:"pointer"}}/>
       </Link>
-      
+      <div className='header__location'>
+        <span><LocationOnIcon/></span>
+        <span>Delivery to Nigeria</span>
+      </div>
       <input type="text" className='header__searchInput'/>
       <div className='header__search'>
        <SearchIcon className='header__searchIcon'/> 
