@@ -6,7 +6,11 @@ import "./Home.css"
 const Home = () => {
   return (
     <div className='Home'>
-        <div>
+        <div style={{paddingTop:"260px", display:"flex",flexWrap:"wrap"}}>
+          <AdvertisementOne/>
+          <AdvertisementOne/>
+          <AdvertisementOne/>
+          <AdvertisementOne/>
           <AdvertisementOne/>
         </div>
     </div>

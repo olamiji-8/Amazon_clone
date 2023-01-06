@@ -1,6 +1,6 @@
-.AdvertisementOne{
+.AdvertisementFour{
     height: 380px;
-    width:335px ;
+   min-width:335px ;
     background-color: white;
     margin: 10px;
 }
@@ -12,7 +12,14 @@
 }
 .AdvertisementOne__body{
     padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .AdvertisementOne__footer{
     padding: 15px;
+}
+.AdvertisementFour__image{
+    width: 140px;
+    height: 100px;
+    margin: 5px;
 }
