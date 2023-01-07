@@ -6,13 +6,13 @@ import "./Home.css"
 
 const Home = () => {
   return (
-    <div className='Home'>
+    <div className='Homes'>
         <div style={{paddingTop:"260px", display:"flex",flexWrap:"wrap"}}>
           <AdvertisementOne/>
           <AdvertisementFour/>
           <AdvertisementOne/>
           <AdvertisementOne/>
-          {/* <AdvertisementFour/> */}
+          <AdvertisementFour/> 
           <AdvertisementOne/>
           {/* <AdvertisementFour/> */}
           <AdvertisementOne/>

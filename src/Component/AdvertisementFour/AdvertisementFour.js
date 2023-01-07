@@ -3,7 +3,7 @@ import "./AdvertisementFour.css"
 
 const AdvertisementFour = () => {
   return (
-    <div className='AdvertisementFour'>
+    <div className='AdvertisementOne'>
       <div className='AdvertisementOne__header'>
         Electronics
         </div>

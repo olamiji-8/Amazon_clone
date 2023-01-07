@@ -1,4 +1,4 @@
-.AdvertisementFour{
+.AdvertisementOne{
     height: 380px;
     min-width:335px ;
     background-color: white;
@@ -21,5 +21,5 @@
 .AdvertisementFour__image{
     width: 140px;
     height: 100px;
-    margin: -5px;
+    margin: 5px;
 }
