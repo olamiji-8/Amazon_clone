@@ -2,7 +2,9 @@
     height: 380px;
     min-width:335px ;
     background-color: white;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 3px;
 }
 .AdvertisementOne__header{
     font-size: 21px;

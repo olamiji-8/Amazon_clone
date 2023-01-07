@@ -7,16 +7,16 @@ import "./Home.css"
 const Home = () => {
   return (
     <div className='Homes'>
-        <div style={{paddingTop:"260px", display:"flex",flexWrap:"wrap"}}>
+        <div style={{paddingTop:"260px", display:"flex",flexWrap:"wrap",margin:"1px"}}>
           <AdvertisementOne/>
           <AdvertisementFour/>
           <AdvertisementOne/>
           <AdvertisementOne/>
           <AdvertisementFour/> 
           <AdvertisementOne/>
-          {/* <AdvertisementFour/> */}
+         <AdvertisementFour/> 
           <AdvertisementOne/>
-          {/* <AdvertisementFour/> */}
+          <AdvertisementFour/>
         </div>
     </div>
   )
