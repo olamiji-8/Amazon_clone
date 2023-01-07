@@ -1,9 +1,9 @@
 .AdvertisementOne{
     height: 380px;
-    width:335px ;
+    width:100px ;
     background-color: white;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
+
 }
 .AdvertisementOne__header{
     font-size: 21px;
