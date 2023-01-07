@@ -3,7 +3,9 @@ import "./ProductRight.css"
 
 const ProductRight = () => {
   return (
-    <div>ProductRight</div>
+    <div className='ProductRight'>
+        Ola
+    </div>
   )
 }
 
