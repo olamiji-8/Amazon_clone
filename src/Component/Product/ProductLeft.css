@@ -3,3 +3,11 @@
     width: 300px;
     border-right:1px solid ;
 }
+.ProductLeft__header{
+    font-weight: bold;
+    margin: 10px;
+}
+.ProductLeft__name{
+    display: block;
+    width: 100px;
+}
