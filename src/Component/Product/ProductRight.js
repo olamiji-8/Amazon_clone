@@ -1,9 +1,9 @@
-import React,{useState,useEffect}from 'react';
+import React,{useState,useEffect} from 'react';
 import axios from 'axios';
 import "./ProductRight.css"
 
 const ProductRight = () => {
-  const {data,setData} =useState({});
+  const {data,setData} = useState({});
   
   useEffect(()=>{
     axios({
@@ -14,7 +14,7 @@ const ProductRight = () => {
       console.log(res.data);
       setData(res.data);
     })
-    .catch((e) => console.log(e));
+    .catch((e) => console.log(e))
   })
   return (
     <div className='ProductRight'>
