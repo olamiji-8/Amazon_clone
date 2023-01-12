@@ -3,13 +3,12 @@ import axios from 'axios';
 import "./ProductRight.css"
 
 const ProductRight = () => {
-  const {loading,setLoading} =useState(false);
   const {data,setData} =useState({});
   
   useEffect(()=>{
     axios({
       method:"GET",
-      url: "" ,
+      url: "https://api.escuelajs.co/api/v1/products" ,
     })
     .then ((res)=>{
       console.log(res.data);
@@ -19,7 +18,14 @@ const ProductRight = () => {
   })
   return (
     <div className='ProductRight'>
-        
+        {data.map((product) =>(
+          <div key={product.id}>
+            <div> <img src={product.images} alt="#"/> </div>
+            <div>
+              <h6>{product.title}</h6>
+            </div>
+          </div>
+        ))}
     </div>
   )
 }
