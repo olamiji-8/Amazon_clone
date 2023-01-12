@@ -5,7 +5,7 @@ import "./Product.css"
 
 const Product = () => {
   return (
-    <div style={{display:"flex"}}>
+  <div style={{display:"flex"}}>
         <div>
             <ProductLeft/>
         </div>
@@ -13,7 +13,7 @@ const Product = () => {
         <ProductRight/>
         </div>
     </div>
-  )
+ )
 }
 
 export default Product
