@@ -3,7 +3,7 @@ import Header from './Component/Header/Header';
 import Navbar from './Component/Navbar/Navbar';
 import ProductRight from './Component/Product/ProductRight';
 import Home from './Pages/Home/Home';
-import Login from './Pages/Login/Login';
+import Login from './Pages/Signin/Signin';
 import Product from './Pages/Product.js/Product';
 import Signup from './Pages/Signup/Signup';
 
