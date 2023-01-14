@@ -47,14 +47,15 @@ const ProductRight = () => {
   return (
     <div className='ProductRight'>
         {data?.map((product) =>(
-          <div key={product.id}>
-            { <div> <img src={product.images} alt="#"/> </div>}
-            <div>
+          <div key={product.id } className="product__div">
+            { <div> <img src={product.images} alt="#" width="80%" height="40%" className='product__img'/> </div>}
+            <div className='product__text'>
               <h6>{product.title}</h6>
+              <h6> ${product.price}</h6>
+              <h6 > {product.description}</h6>
             </div>
           </div>
         ))}
-        <p>Hello world</p>
     </div>
   
   )
