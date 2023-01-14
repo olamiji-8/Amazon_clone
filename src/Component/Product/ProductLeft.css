@@ -1,7 +1,8 @@
 .ProductLeft{
-    height: 100vh;
-    width: 300px;
-    border-right:1px solid ;
+
+   margin: 40% 10% 0% 20%;
+    width: 60%;
+    
 }
 .ProductLeft__header{
     font-weight: bold;
