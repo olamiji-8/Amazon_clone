@@ -15,3 +15,6 @@
 .ProductLeft input{
     margin-right: 4px;
 }
+.ProductLeft__ratingstar{
+    margin: 0px;
+}

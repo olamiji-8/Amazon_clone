@@ -1,3 +1,4 @@
+import RatingStar from "../RatingStar/RatingStar"
 import React from 'react'
 import "./ProductLeft.css"
 
@@ -50,14 +51,20 @@ const ProductLeft = () => {
         </label>
       </div> 
       <div className='ProductLeft__middle'>Price</div>
-      <p>All</p>
+      <h6>All</h6>
       <p>Under $25</p>
       <p>$25 to $50</p>
       <p>$50 to $100</p>
       <p>$100 to $200</p>
       <p>$200 & Above</p>
       <div className='ProductLeft__bottom'>Average Customer Review</div>
-      
+      <div className="productLeft__ratingstar">
+      <RatingStar/>
+      <RatingStar/>
+      <RatingStar/>
+      <RatingStar/>
+      </div>
+
     </div>
   )
 }

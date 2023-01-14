@@ -1,23 +1,22 @@
-import ReactStars from "react-rating-stars-component";
-import React from "react";
-import { render } from "react-dom";
- 
-const ratingChanged = (newRating) => {
-  console.log(newRating);
-};
- 
-render(
-  <ReactStars
-    count={5}
-    onChange={ratingChanged}
-    size={24}
-    isHalf={true}
-    emptyIcon={<i className="far fa-star"></i>}
-    halfIcon={<i className="fa fa-star-half-alt"></i>}
-    fullIcon={<i className="fa fa-star"></i>}
-    activeColor="#ffd700"
-  />,
- 
-  document.getElementById("where-to-render")
-);
-export default ratingChanged
+import { RatingStar } from "rating-star";
+import React from "react"
+
+export default function App() {
+  const [rating, setRating] = React.useState(30);
+
+  const onRatingChange = (score) => {
+    setRating(score);
+  };
+
+  return (
+    <div className="App">
+      <RatingStar
+        clickable
+        maxScore={100}
+        id="1"
+        rating={rating}
+        onRatingChange={onRatingChange}
+      />
+    </div>
+  );
+}

@@ -1,0 +1,21 @@
+.Footer{
+    color: white;
+    background-color:#232F3E ;
+    height: 40vh;
+    
+   
+}
+.Footer .Footer__span{
+    display: grid;
+    gap: 10px;
+    word-wrap: break-word;
+    width: 80%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 2%;
+    
+}
+.Footer__flex{
+    display: flex;
+
+}

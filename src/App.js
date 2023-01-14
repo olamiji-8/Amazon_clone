@@ -7,6 +7,8 @@ import Login from './Pages/Signin/Signin';
 import Product from './Pages/Product.js/Product';
 import Signup from './Pages/Signup/Signup';
 import Signin from './Pages/Signin/Signin';
+import Footer from './Pages/Footer/Footer';
+
 
 
 function App() {
@@ -15,7 +17,7 @@ function App() {
     <div className="App">
       <Router>
      <Routes>
-      <Route path='/' element={<Product/>}></Route>
+      <Route path='/' element={<Footer/>}></Route>
       <Route path='/Signin' element={<Signin/>}></Route>
       <Route path='/Signup' element={<Signup/>}></Route>
       {/* <Route path='/' element></Route>
