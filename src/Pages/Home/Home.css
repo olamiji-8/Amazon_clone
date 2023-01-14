@@ -1,7 +1,7 @@
 .Homes{
-    height: 100%;
+    height: 190vh;
     width: 100%;
-    background: url("https://firebasestorage.googleapis.com/v0/b/clone-b643d.appspot.com/o/1348517_in_prime_2_pd_3000x1200_Eng._CB663273097_.jpg.png?alt=media&token=e2949ea0-9ae7-4c95-a503-e95946a95708"), #EAEDED;
+    background: url("https://firebasestorage.googleapis.com/v0/b/clone-b643d.appspot.com/o/1348517_in_prime_2_pd_3000x1200_Eng._CB663273097_.jpg.png?alt=media&token=e2949ea0-9ae7-4c95-a503-e95946a95708" ), #EAEDED;
     background-size: 100%;
     background-repeat: no-repeat;
     margin: 0px;
