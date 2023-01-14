@@ -49,9 +49,25 @@ const ProductLeft = () => {
         <input type="checkbox"/>Computers & Accessories
         </label>
       </div> 
+      <div className='ProductLeft__middle'>Price</div>
+      <p>All</p>
+      <p>Under $25</p>
+      <p>$25 to $50</p>
+      <p>$50 to $100</p>
+      <p>$100 to $200</p>
+      <p>$200 & Above</p>
+      <div className='ProductLeft__bottom'>Average Customer Review</div>
+      
     </div>
   )
 }
 
 export default ProductLeft
+
+
+
+
+
+
+
 
