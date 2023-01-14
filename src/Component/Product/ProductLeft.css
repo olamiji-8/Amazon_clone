@@ -12,3 +12,6 @@
     display: block;
     width: 100px;
 }
+.ProductLeft input{
+    margin-right: 4px;
+}
