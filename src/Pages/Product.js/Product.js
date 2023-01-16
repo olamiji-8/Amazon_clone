@@ -1,6 +1,7 @@
 import React from 'react'
 import ProductLeft from '../../Component/Product/ProductLeft'
 import ProductRight from '../../Component/Product/ProductRight'
+import Footer from '../Footer/Footer'
 import "./Product.css"
 
 const Product = () => {
@@ -12,6 +13,7 @@ const Product = () => {
         <div>
         <ProductRight/>
         </div>
+        <Footer/>
     </div>
  )
 }

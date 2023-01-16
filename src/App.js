@@ -8,7 +8,7 @@ import Product from './Pages/Product.js/Product';
 import Signup from './Pages/Signup/Signup';
 import Signin from './Pages/Signin/Signin';
 import Footer from './Pages/Footer/Footer';
-import Play from "../src/Play/Play"
+
 
 
 
@@ -18,7 +18,8 @@ function App() {
     <div className="App">
       <Router>
      <Routes>
-      <Route path='/' element={<Play/>}></Route>
+      <Route path='/' element={<Home/>}></Route>
+      <Route path='/Product' element={<Product/>}></Route>
       <Route path='/Signin' element={<Signin/>}></Route>
       <Route path='/Signup' element={<Signup/>}></Route>
       {/* <Route path='/' element></Route>

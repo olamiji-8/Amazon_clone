@@ -12,7 +12,7 @@ const Home = () => {
     <div className='Homes'>
       <Header/>
       <Navbar/>
-        <div style={{paddingTop:"260px", display:"flex",flexWrap:"wrap",margin:"1px"}}>
+        <div style={{paddingTop:"260px", display:"flex",flexWrap:"wrap",margin:"1px", marginLeft:"38px"}}>
           <AdvertisementOne/>
           <AdvertisementFour/>
           <AdvertisementOne/>
@@ -22,6 +22,7 @@ const Home = () => {
          <AdvertisementFour/> 
           <AdvertisementOne/>
           <AdvertisementFour/>
+          <AdvertisementOne/>
         </div>
         <Footer/>
     </div>
