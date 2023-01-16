@@ -8,8 +8,8 @@
 }
 .header__dropdown{
     position: absolute;
-    margin-left: 11.7rem;
-    height: 5.2vh;
+    margin-left: 15%;
+    height: 6%;
     margin-top: -16px;
     width: 5vw;
     padding: 0%;
@@ -20,19 +20,22 @@
 }
 .header__searchIcon{
     background-color: #cd9042;
-    padding: 6px;
-    height: 22px !important;
+    padding: 10%;
+    margin-top: 4px;
 }
 .header__searchInput{
-    height: 12px;
-    padding: 10px;
+    height: 42%;
+    padding: 1%;
     border: none;
-    width: 36vw;
-    margin-left: 16rem
+    outline: none;
+    width: 40%;
+    margin-left: 20%
 }
 .header__search{
     display: flex;
-   
+    background-color: #cd9042;
+    height: 42%;
+   cursor: pointer;
 }
 .header__logo{
     object-fit: contain;
@@ -62,21 +65,26 @@ p{
 .header__sigin{
     position: absolute;
     color: white;
-    margin-top: -4rem;
-    margin-left: 2rem;
+    margin-top: -1rem;
+    margin-left: 10%;
 }
 .header__order{
     position: absolute;
     color: white;
-    margin-left: 12rem;
-    margin-top: -4rem;
+    margin-left: 22%;
+    margin-top: -1rem;
 }
 .header__cart{
     position: absolute;
     color: white;
-     margin-left: 18rem; 
-    margin-top: -4rem;
+     margin-left: 30%; 
+    margin-top: -1rem;
     display: flex;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
 }
 .header__counter{
     position: absolute;

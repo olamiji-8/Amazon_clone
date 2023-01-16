@@ -38,11 +38,6 @@ const Header = () => {
        <SearchIcon className='header__searchIcon'/> 
        </div>
       <div className='header__nav'>
-        <div>
-          <img src={Flag}alt='flag' width="4px" height="84px"/>
-          <span>EN</span>
-          <span><ArrowDropDownIcon/></span>
-        </div>
         <div className='header__sigin'>
           <p>Hello,sign in</p>
           <p>Account & Lists</p>
@@ -56,8 +51,8 @@ const Header = () => {
           <span className='header__counter'>0</span>
           <ShoppingCartOutlinedIcon style={{fontSize:"40px"}} className='header__cart__icon'/>
           <p>Cart</p>
+          </div>
         </div>
-      </div>
     </nav>
   )
 }
