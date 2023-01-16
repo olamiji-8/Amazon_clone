@@ -1,6 +1,6 @@
 .header{
     background-color:#231f20 ;
-    height: 5rem;
+    height: 13vh;
     margin-top: 0px;
     display: flex;
     align-items: center;
@@ -8,10 +8,10 @@
 }
 .header__dropdown{
     position: absolute;
-    margin-left: 15%;
-    height: 6%;
-    margin-top: -16px;
-    width: 5vw;
+    margin-left: 16%;
+    height: 6% !important;
+    margin-top: -1.4%;
+    width: 4%;
     padding: 0%;
     cursor: pointer;
     background-color: #F3F3F3;
@@ -24,17 +24,17 @@
     margin-top: 4px;
 }
 .header__searchInput{
-    height: 42%;
+    height: 44%;
     padding: 1%;
     border: none;
     outline: none;
-    width: 40%;
+    width: 36%;
     margin-left: 20%
 }
 .header__search{
     display: flex;
     background-color: #cd9042;
-    height: 42%;
+    height: 44%;
    cursor: pointer;
 }
 .header__logo{
@@ -57,6 +57,7 @@
 }
 .header__location__text{
     display: grid;
+    margin-left: 0%;
 }
 p{
     margin: 0px;
@@ -66,18 +67,18 @@ p{
     position: absolute;
     color: white;
     margin-top: -1rem;
-    margin-left: 10%;
+    margin-left: 6%;
 }
 .header__order{
     position: absolute;
     color: white;
-    margin-left: 22%;
+    margin-left: 18%;
     margin-top: -1rem;
 }
 .header__cart{
     position: absolute;
     color: white;
-     margin-left: 30%; 
+     margin-left: 27%; 
     margin-top: -1rem;
     display: flex;
 }

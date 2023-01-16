@@ -12,15 +12,17 @@
     border: 2px solid white;
 }
 .navbar__icon{
-    margin-top: -8px;
-    margin-left: 14px;
+    margin-top: -0.6%;
+    margin-bottom: 1%;
+    margin-left: 1%;
     display: flex;
     gap: 1px;
     cursor: pointer;
 }
 .navbar__text{
-    margin-top: -10px;
-    margin-right: 68%;
+    margin-top: -0.6% !important;
+    margin-bottom: 1%;
+    margin-right: 67%;
     display: flex;
     gap: 14px;
     cursor: pointer;
