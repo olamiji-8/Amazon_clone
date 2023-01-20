@@ -40,24 +40,28 @@ export const Info=[
         id:1,
         img:"https://firebasestorage.googleapis.com/v0/b/clone-b643d.appspot.com/o/Amazon%20gift%20card%2Fd1.jpg?alt=media&token=b0d3458c-9e08-4b64-836a-595c45805c94",
         title: "Amazon",
-        description:"Easily add funds to your gift card balance.",
+        price:"50",
+        rating:"https://firebasestorage.googleapis.com/v0/b/clone-b643d.appspot.com/o/Amazon%20gift%20card%2Ftoppng.com-five-star-rating-623x124.png?alt=media&token=e5fab435-8ee3-4bf1-8232-138e8e025b9e"
     },
     {
         id:2,
         img:"https://firebasestorage.googleapis.com/v0/b/clone-b643d.appspot.com/o/Amazon%20gift%20card%2Fd1.jpg?alt=media&token=b0d3458c-9e08-4b64-836a-595c45805c94",
         title: "Amazon",
-        description:"Easily add funds to your gift card balance."
+        price:"40",
+        rating:"https://firebasestorage.googleapis.com/v0/b/clone-b643d.appspot.com/o/Amazon%20gift%20card%2Ftoppng.com-five-star-rating-623x124.png?alt=media&token=e5fab435-8ee3-4bf1-8232-138e8e025b9e"
     },
     {
         id:3,
         img:"https://firebasestorage.googleapis.com/v0/b/clone-b643d.appspot.com/o/Amazon%20gift%20card%2Fd2.jpg?alt=media&token=d96d0100-873c-47fe-83c6-16513c4db17e",
         title: "Amazon",
-        description:"Easily add funds to your gift card balance."
+        price:"150",
+        rating:"https://firebasestorage.googleapis.com/v0/b/clone-b643d.appspot.com/o/Amazon%20gift%20card%2Ftoppng.com-five-star-rating-623x124.png?alt=media&token=e5fab435-8ee3-4bf1-8232-138e8e025b9e"
     },
     {
         id:4,
         img:"https://firebasestorage.googleapis.com/v0/b/clone-b643d.appspot.com/o/Amazon%20gift%20card%2Fd4.jpg?alt=media&token=d9ad5c24-14aa-42bc-97f6-5db7c48b46fa",
         title: "Amazon",
-        description:"Easily add funds to your gift card balance."
+        price:"100",
+        rating:"https://firebasestorage.googleapis.com/v0/b/clone-b643d.appspot.com/o/Amazon%20gift%20card%2Ftoppng.com-five-star-rating-623x124.png?alt=media&token=e5fab435-8ee3-4bf1-8232-138e8e025b9e"
     }
 ]
