@@ -6,9 +6,9 @@ const GiftCardRight = () => {
 
   return (
     <div>
-      <p style={{}}>Shop the perfect gift card</p>
+      <p style={{fontWeight:"400",fontSize:"34px",textAlign:"center",marginTop:"2%"}}>Shop the perfect gift card</p>
       <div>
-        <p>Shop by occasion</p>
+        <p style={{fontWeight:"668",fontSize:"28px", marginLeft:"6%",marginBottom:"2%",marginTop:"4%"}}>Shop by occasion</p>
         <div className='GiftCardRight_Button'>
           <button>New year's</button>
           <button>Valentine's day</button>
@@ -19,7 +19,7 @@ const GiftCardRight = () => {
         </div>
       </div>
       <div>
-        <p>Shop by card type</p>
+        <p style={{fontWeight:"668",fontSize:"28px", marginLeft:"6%",marginBottom:"0%",marginTop:"4%"}}>Shop by card type</p>
         </div>
       {Data.map(Data =>{
         return(
