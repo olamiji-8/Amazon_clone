@@ -17,9 +17,13 @@
     outline: none;
     border: none;
     margin-left: 2%;
+    font-weight: 600;
 
 }
 .GiftCardRight_Button{
     display: flex;
     margin: 0 4% 0 4%;
+}
+.GiftCardRight_ItemImage{
+    width: fit-content;
 }
