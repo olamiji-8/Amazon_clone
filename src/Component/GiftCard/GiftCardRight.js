@@ -5,7 +5,7 @@ import  "./GiftCardRight.css";
 const GiftCardRight = () => {
 
   return (
-    <div>
+    <div className='GiftCardRight'>
       <p style={{fontWeight:"400",fontSize:"34px",textAlign:"center",marginTop:"2%"}}>Shop the perfect gift card</p>
       <div>
         <p style={{fontWeight:"668",fontSize:"28px", marginLeft:"6%",marginBottom:"2%",marginTop:"4%"}}>Shop by occasion</p>
