@@ -1,0 +1,8 @@
+.GiftCardRight_Item{
+    display: grid;
+    margin: 4% 0 0 8%;
+}
+.GiftCardRight_ItemFlex{
+    display: flex;
+    flex-wrap: wrap;
+}
