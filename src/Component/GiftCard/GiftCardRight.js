@@ -9,7 +9,7 @@ const GiftCardRight = () => {
       <p>Shop the perfect gift card</p>
       <div>
         <p>Shop by occasion</p>
-        <div>
+        <div className='GiftCardRight_Button'>
           <button>New year's</button>
           <button>Valentine's day</button>
           <button>Birthday</button>
