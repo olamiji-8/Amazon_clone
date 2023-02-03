@@ -5,7 +5,7 @@ import Return from "../../Asset/icon_Return.svg"
 import Share from "../../Asset/icon_Share.svg"
 import Thank from "../../Asset/icon_Thank_you.svg"
 import "./Registry.css"
-import { Register } from '../../Data'
+import { Register, subRegister } from '../../Data'
 
 const Registry = () => {
   return (
@@ -38,6 +38,17 @@ const Registry = () => {
                         <div>
                             <p>{Register.title}</p>
                             <p>{Register.description}</p>
+                        </div>
+                    )
+                })}
+            </div>
+            <p>Learn more about our different registries and gift lists</p>
+            <div>
+                {subRegister.map(subRegister =>{
+                    return(
+                        <div>
+                            <img src={subRegister.img} alt=''/>
+                            <p>{subRegister.title}</p>
                         </div>
                     )
                 })}

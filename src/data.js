@@ -90,3 +90,30 @@ export const Register= [
         description:"We keep track of who bought what gift and when, so it's easy for you to send thank you notes."
     },
 ]
+export const subRegister =[
+    {
+        id:1,
+        img:"https://firebasestorage.googleapis.com/v0/b/clone-b643d.appspot.com/o/Registry%2Fwedding_registry_238x238.jpg?alt=media&token=46a4cbdb-9748-49ca-a885-77efe66d2104",
+        title:"I'm getting married"
+    },
+    {
+        id:2,
+        img:"https://firebasestorage.googleapis.com/v0/b/clone-b643d.appspot.com/o/Registry%2FBabysquare.jpg?alt=media&token=70edb0c3-e2dc-4fb7-896c-caef863fcda9",
+        title:"I'm welcoming a baby"
+    },
+    {
+        id:3,
+        img:"https://firebasestorage.googleapis.com/v0/b/clone-b643d.appspot.com/o/Registry%2Fbirthday_gift_238x238.jpg?alt=media&token=855ee93d-4687-4d23-a2b4-24a784250863",
+        title:"Celebrating a child's birthday"
+    },
+    {
+        id:4,
+        img:"https://firebasestorage.googleapis.com/v0/b/clone-b643d.appspot.com/o/Registry%2FHoliday_238x238-2.jpg?alt=media&token=45f8ef7e-cb42-4cfd-9291-1cd8b9ede539",
+        title:"Preaparing for the Winter holidays"
+    },
+    {
+        id:5,
+        img:"https://firebasestorage.googleapis.com/v0/b/clone-b643d.appspot.com/o/Registry%2Fcustom_gift_238x238.jpg?alt=media&token=9c7aa303-29c1-42dd-b02e-bf7f6ca92414",
+        title:"Celebrating a different ocassion"
+    },
+]
