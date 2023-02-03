@@ -1,0 +1,15 @@
+.Registry_subRegister{
+    display: flex;
+   
+    margin: 10% 20%;
+    justify-content: space-around;
+
+}
+.Registry_subRegisterBorder{
+    margin-left: 4%;
+    border: 2px solid red;
+    height: 40vh;
+    text-align: center;
+    color:#272711;
+    font-weight: 500;
+}

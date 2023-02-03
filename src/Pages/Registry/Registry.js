@@ -43,10 +43,10 @@ const Registry = () => {
                 })}
             </div>
             <p>Learn more about our different registries and gift lists</p>
-            <div>
+            <div className='Registry_subRegister'>
                 {subRegister.map(subRegister =>{
                     return(
-                        <div>
+                        <div className='Registry_subRegisterBorder'>
                             <img src={subRegister.img} alt=''/>
                             <p>{subRegister.title}</p>
                         </div>
