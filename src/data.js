@@ -37,7 +37,7 @@ const Data = [
 ]
 export default Data;
 
-export const Info=[
+export const Info= [
     {
         id:1,
         img:"https://firebasestorage.googleapis.com/v0/b/clone-b643d.appspot.com/o/Amazon%20gift%20card%2Fd1.jpg?alt=media&token=b0d3458c-9e08-4b64-836a-595c45805c94",
