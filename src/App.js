@@ -9,6 +9,7 @@ import Signup from './Pages/Signup/Signup';
 import Signin from './Pages/Signin/Signin';
 import Footer from './Pages/Footer/Footer';
 import GiftCardRight from './Component/GiftCard/GiftCardRight';
+import Registry from './Pages/Registry/Registry';
 
 
 
@@ -21,7 +22,7 @@ function App() {
     <div className="App">
       <Router>
      <Routes>
-      <Route path='/' element={<Home/>}></Route>
+      <Route path='/' element={<Registry/>}></Route>
       <Route path='/Product' element={<Product/>}></Route>
       <Route path='/Signin' element={<Signin/>}></Route>
       <Route path='/Signup' element={<Signup/>}></Route>
