@@ -1,10 +1,13 @@
 .GiftCardRight_Item{
     display: flex;
-    flex-wrap: wrap;
+    width: 100%;
+}
+.GiftCardRight_ItemBox{
+    border: 2px solid #F3F3F3;
+    margin: 2% 0 0 2%;
 }
 .GiftCardRight_ItemFlex{
-    border: 2px solid #F3F3F3;
-    margin: 4% 0 0 4%;
+    background-color: red;
 }
 .GiftCardRight_Button > button{
     background-color: #232f3e;
@@ -28,6 +31,5 @@
     width: fit-content;
 }
 .GiftCardRight{
-    
   border-left: 5px solid #dddddd;
 }

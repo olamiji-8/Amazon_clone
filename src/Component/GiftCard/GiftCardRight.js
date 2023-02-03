@@ -25,9 +25,11 @@ const GiftCardRight = () => {
         return(
           <div className='GiftCardRight_Item'>
             <div className='GiftCardRight_ItemFlex'>
+            <div className='GiftCardRight_ItemBox'>
             <img src={Data.img} alt="" className='GiftCardRight_ItemImage'width="20%" height="60%"/>
             <h2>{Data.title}</h2>
             <h5>{Data.description}</h5>
+            </div>
             </div>
             </div>
         )
