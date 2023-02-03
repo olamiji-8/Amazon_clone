@@ -67,3 +67,26 @@ export const Info= [
         rating:"https://firebasestorage.googleapis.com/v0/b/clone-b643d.appspot.com/o/Amazon%20gift%20card%2Ftoppng.com-five-star-rating-623x124.png?alt=media&token=e5fab435-8ee3-4bf1-8232-138e8e025b9e"
     }
 ]
+
+export const Register= [
+    {
+        id:1,
+        title:"Celebrate any milestone",
+        description:"Add items from Amazon to create a gift registry for any occasion."
+    },
+    {
+        id:2,
+        title:"Easy to share",
+        description:"Share your Gift lists with friends and family so they'll know exactly what gifts to get."
+    },
+    {
+        id:3,
+        title:"Extended returns",
+        description:"Gift not quite right? Gift registry purchases have an extended return period."
+    },
+    {
+        id:4,
+        title:"Thank you list",
+        description:"We keep track of who bought what gift and when, so it's easy for you to send thank you notes."
+    },
+]
