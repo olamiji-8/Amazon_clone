@@ -42,7 +42,7 @@ const Registry = () => {
                     )
                 })}
             </div>
-            <p>Learn more about our different registries and gift lists</p>
+            <p style={{fontSize:"32px", fontWeight:"600",textAlign:"center", marginBottom:"-8%"}}>Learn more about our different registries and gift lists</p>
             <div className='Registry_subRegister'>
                 {subRegister.map(subRegister =>{
                     return(
