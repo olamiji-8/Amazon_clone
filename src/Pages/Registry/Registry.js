@@ -12,11 +12,11 @@ const Registry = () => {
     <div>
         <img src={NavImg} alt='' width="100%" style={{marginTop:"4%"}}/>
         <div className='Registry_position'>
-            <p style={{fontSize:"30px", fontWeight:"600", }} >The gift of better gift-giving</p>
-            <p style={{fontSize:"20px", fontWeight:"500",textAlign:"center", width:"34%"}}>
+            <p style={{fontSize:"32px", fontWeight:"590", }} >The gift of better gift-giving</p>
+            <p style={{fontSize:"20px", fontWeight:"500",width:"34%"}}>
             Whether you're celebrating a wedding, a baby, a birthday, or other memorable milestones, our Gift Lists and registries will help you and your guests find the perfect gifts.
             </p>
-            <button style={{backgroundColor:"#ffd814", fontSize:"17px", height:"5vh",padding:"2px 12px 6px 9px",border:"none",outline:"none",borderRadius:"5px"}}>create a registry or gift list</button>
+            <button style={{backgroundColor:"#ffd814", fontSize:"17px", height:"5vh",padding:"2px 12px 6px 9px",border:"none",outline:"none",borderRadius:"8px", marginTop:"2%",width:"16%"}}>create a registry or gift list</button>
         </div>
         <div className='Registry_Body'>
             <p style={{fontSize:"22px", fontWeight:"680",textAlign:"center", }}>Find a registry or gift list</p>
