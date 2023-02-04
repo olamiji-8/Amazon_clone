@@ -12,7 +12,7 @@ const Registry = () => {
     <div>
         <img src={NavImg} alt='' width="100%" style={{marginTop:"4%"}}/>
         <div className='Registry_Body'>
-            <p>Find a registry or gift list</p>
+            <p style={{fontSize:"24px", fontWeight:"690",textAlign:"center", }}>Find a registry or gift list</p>
             <p>Registrant name</p>
             <div className='Registry_BodyFlex'>
                 <input type="text" placeholder='Search by Registrant name'/>
@@ -21,8 +21,9 @@ const Registry = () => {
                     <option>Baby Registry</option>
                     <option>Gift List</option>
                 </select>
-                <buton >Search</buton>
+                <buton className="Registry_BodyFlex_Button">Search</buton>
             </div>
+            
         </div>
         <div>
             <p style={{fontSize:"31px", fontWeight:"600",textAlign:"center", marginBottom:"4%"}}>Reasons to create a registry or gift list on Amazon</p>

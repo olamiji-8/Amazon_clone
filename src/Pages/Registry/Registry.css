@@ -41,3 +41,9 @@
     margin-left: 4%;
     justify-content: center;
 }
+.Registry_BodyFlex_Button > button{
+    background-color: black;
+    color: white;
+    width: 40%;
+    height: 20%;
+}
