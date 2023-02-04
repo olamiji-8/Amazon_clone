@@ -47,3 +47,8 @@
     width: 40%;
     height: 20%;
 }
+.Registry_position{
+    position: absolute;
+    margin-top: -18%;
+    margin-left: 4%;
+}
