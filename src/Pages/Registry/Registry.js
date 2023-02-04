@@ -11,21 +11,21 @@ const Registry = () => {
   return (
     <div>
         <img src={NavImg} alt='' width="100%" style={{marginTop:"4%"}}/>
-        <div>
+        <div className='Registry_Body'>
             <p>Find a registry or gift list</p>
             <p>Registrant name</p>
-            <div>
+            <div className='Registry_BodyFlex'>
                 <input type="text" placeholder='Search by Registrant name'/>
                 <select>
                     <option>Wedding Registry</option>
                     <option>Baby Registry</option>
                     <option>Gift List</option>
                 </select>
-                <buton>Search</buton>
+                <buton >Search</buton>
             </div>
         </div>
         <div>
-            <p>Reasons to create a registry or gift list on Amazon</p>
+            <p style={{fontSize:"31px", fontWeight:"600",textAlign:"center", marginBottom:"4%"}}>Reasons to create a registry or gift list on Amazon</p>
             <div className='Registry_Image'>
                 <img src={Celebrate} alt="" width="6%"/>
                 <img src={Share} alt="" width="6%"/>
