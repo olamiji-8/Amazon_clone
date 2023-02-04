@@ -26,7 +26,7 @@ const Registry = () => {
         </div>
         <div>
             <p>Reasons to create a registry or gift list on Amazon</p>
-            <div>
+            <div className='Registry_Image'>
                 <img src={Celebrate} alt="" width="6%"/>
                 <img src={Share} alt="" width="6%"/>
                 <img src={Return} alt="" width="6%"/>

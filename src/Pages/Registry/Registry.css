@@ -24,3 +24,11 @@
     text-align: center;
     font-weight: 490;
 }
+.Registry_Image{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 13%;
+    margin-right: 17%;
+    margin-bottom: -9%;
+}
