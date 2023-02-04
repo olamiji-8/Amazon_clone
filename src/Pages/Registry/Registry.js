@@ -11,8 +11,11 @@ const Registry = () => {
   return (
     <div>
         <img src={NavImg} alt='' width="100%" style={{marginTop:"4%"}}/>
+        <div>
+            <p style={{fontSize:"30px", fontWeight:"600",textAlign:"center", }} >The gift of better gift-giving</p>
+        </div>
         <div className='Registry_Body'>
-            <p style={{fontSize:"24px", fontWeight:"690",textAlign:"center", }}>Find a registry or gift list</p>
+            <p style={{fontSize:"22px", fontWeight:"680",textAlign:"center", }}>Find a registry or gift list</p>
             <p>Registrant name</p>
             <div className='Registry_BodyFlex'>
                 <input type="text" placeholder='Search by Registrant name'/>
