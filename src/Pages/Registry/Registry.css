@@ -12,3 +12,15 @@
     font-weight: 500;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.17);
 }
+.Registry_Register{
+    display: flex;
+    margin: 10% 8%;
+    justify-content: space-around;
+}
+.Registry_RegisterBorder{
+    font-size: 18px;
+    margin-left: 4%;
+    margin-bottom: -6%;
+    text-align: center;
+    font-weight: 490;
+}

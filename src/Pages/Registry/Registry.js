@@ -32,11 +32,11 @@ const Registry = () => {
                 <img src={Return} alt="" width="6%"/>
                 <img src={Thank} alt="" width="6%"/>
             </div>
-            <div>
+            <div className='Registry_Register'>
                 {Register.map(Register =>{
                     return(
-                        <div>
-                            <p>{Register.title}</p>
+                        <div className='Registry_RegisterBorder'>
+                            <p style={{fontSize:"22px", fontWeight:"600"}}>{Register.title}</p>
                             <p>{Register.description}</p>
                         </div>
                     )
