@@ -50,6 +50,7 @@ const Registry = () => {
           </select>
           <div
             style={{
+              marginLeft: "4%",
               backgroundColor: "#303333",
               color: "white",
               width: "10%",
@@ -59,6 +60,7 @@ const Registry = () => {
               paddingLeft: "50px",
               fontWeight: "600",
               fontSize: "20px",
+              cursor:"pointer"
             }}
           >
             <buton className="Registry_BodyFlex_Button"> Search </buton>
