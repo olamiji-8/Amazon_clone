@@ -48,7 +48,19 @@ const Registry = () => {
             <option>Baby Registry</option>
             <option>Gift List</option>
           </select>
-          <div style={{ backgroundColor: "black", color:"white", width:"10%", height:"42px", borderRadius:"10px", paddingTop:"8px",paddingLeft:"50px"  }}>
+          <div
+            style={{
+              backgroundColor: "#303333",
+              color: "white",
+              width: "10%",
+              height: "42px",
+              borderRadius: "10px",
+              paddingTop: "5px",
+              paddingLeft: "50px",
+              fontWeight: "600",
+              fontSize: "20px",
+            }}
+          >
             <buton className="Registry_BodyFlex_Button"> Search </buton>
           </div>
         </div>
