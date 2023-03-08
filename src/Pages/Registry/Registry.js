@@ -40,9 +40,9 @@ const Registry = () => {
         <p style={{ fontSize: "22px", fontWeight: "680", textAlign: "center" }}>
           Find a registry or gift list
         </p>
-        <p>Registrant name</p>
+        <p style={{marginLeft:"25%", fontSize:"20px"}}>Registrant name</p>
         <div className="Registry_BodyFlex">
-          <input type="text" placeholder="Search by Registrant name" />
+          <input type="text" placeholder="Search by Registrant name" style={{}}/>
           <select>
             <option>Wedding Registry</option>
             <option>Baby Registry</option>
