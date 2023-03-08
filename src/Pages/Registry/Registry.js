@@ -40,7 +40,7 @@ const Registry = () => {
         <p style={{ fontSize: "22px", fontWeight: "680", textAlign: "center" }}>
           Find a registry or gift list
         </p>
-        <p style={{ marginLeft: "25%", fontSize: "20px" }}>Registrant name</p>
+        <p style={{ marginLeft: "20%", fontSize: "20px", fontWeight:"400" }}>Registrant name</p>
         <div className="Registry_BodyFlex">
           <input
             type="text"
@@ -68,14 +68,14 @@ const Registry = () => {
           </select>
           <div
             style={{
-              marginLeft: "4%",
+              marginLeft: "2%",
               backgroundColor: "#303333",
               color: "white",
-              width: "10%",
-              height: "42px",
+              width: "12%",
+              height: "40px",
               borderRadius: "10px",
               paddingTop: "5px",
-              paddingLeft: "50px",
+              paddingLeft: "70px",
               fontWeight: "600",
               fontSize: "20px",
               cursor: "pointer",
