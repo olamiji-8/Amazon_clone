@@ -121,28 +121,28 @@ export const subRegister =[
 export const Sell =[
     {
         id:1,
-        img:"",
+        img:"https://m.media-amazon.com/images/G/01/sp-marketing-toolkit/guides/design/iconography/SOA_Desktop_Computer_USD._CB424651259_.svg",
         title:"They’re here, introduce yourself",
         description:"Hundreds of millions of worldwide active customer accounts. More than 200 million paid Prime members worldwide. Reduce the time, effort, and money you spend on customer acquisition with powerful ad products, unparalleled organic traffic, and a shopping experience that converts.",
         link:"How to get started"
     },
     {
         id:2,
-        img:"",
+        img:"https://m.media-amazon.com/images/G/01/sp-marketing-toolkit/guides/design/iconography/Business_Growth._CB424651247_.svg",
         title:"Unrivaled scale, no cap",
         description:"Amazon customers buy roughly 7,400 products per minute from U.S. sellers. Build, grow, and scale your brand with our innovative toolkit: a proven customer experience, rich data insights, cutting-edge advertising & marketing solutions, and world-class logistics with Fulfillment by Amazon (FBA). There is no ceiling—how big do you want to go?",
         link:"Explore pricing"
     },
     {
         id:3,
-        img:"",
+        img:"https://m.media-amazon.com/images/G/01/sp-marketing-toolkit/guides/design/iconography/Enhanced_Content._CB424651237_.svg",
         title:"Your brand experienced",
         description:"Connect your brand to millions of customers. Control the experience from discovery to your dedicated storefront, and from your product pages to their inboxes—Amazon customers following a brand spend more than double that of non-followers. Communicate your core values, build loyal relationships, and ignite your brand experience.",
         link:"Explore brand tools"
     },
     {
         id:4,
-        img:"",
+        img:"https://m.media-amazon.com/images/G/01/sp-marketing-toolkit/guides/design/iconography/Chatting._CB424651247_.svg",
         title:"Your success supported",
         description:"Protect your brand and IP with powerful tools to defend against counterfeits and fraud, plus get critical performance metrics to monitor customer sentiment and ensure a top-tier, always-on brand experience. Get started with 1:1 Amazon seller onboarding support for insights to help you take your business to the next level.",
         link:"Protect your brand"
