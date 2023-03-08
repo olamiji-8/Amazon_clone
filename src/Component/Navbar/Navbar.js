@@ -17,7 +17,9 @@ const Navbar = () => {
         <p className='navbar__text__hover'>Today's Deals</p>
         <p className='navbar__text__hover'>Customer Service</p>
         <p className='navbar__text__hover'>Gift Cards</p>
+        <Link to= "/Registry">
         <p className='navbar__text__hover'>Registry</p>
+        </Link>
         <p className='navbar__text__hover'>Sell</p>
         </div>
       </div>
