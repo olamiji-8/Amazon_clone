@@ -4,7 +4,7 @@ import Navbar from './Component/Navbar/Navbar';
 import ProductRight from './Component/Product/ProductRight';
 import Home from './Pages/Home/Home';
 import Login from './Pages/Signin/Signin';
-import Product from './Pages/Product.js/Product';
+import Product from './Pages/Product/Product';
 import Signup from './Pages/Signup/Signup';
 import Signin from './Pages/Signin/Signin';
 import Footer from './Pages/Footer/Footer';
