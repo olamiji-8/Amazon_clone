@@ -50,9 +50,18 @@ const Registry = () => {
               marginLeft: "-14%",
               fontWeight: "450",
               paddingLeft: "6px",
+              borderRadius: "4px",
             }}
           />
-          <select>
+          <select
+            style={{
+              width: "20%",
+              marginLeft: "0.8%",
+              borderRadius: "8px",
+              paddingLeft: "4px",
+              fontWeight: "450",
+            }}
+          >
             <option>Wedding Registry</option>
             <option>Baby Registry</option>
             <option>Gift List</option>
