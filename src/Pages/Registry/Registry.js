@@ -40,9 +40,18 @@ const Registry = () => {
         <p style={{ fontSize: "22px", fontWeight: "680", textAlign: "center" }}>
           Find a registry or gift list
         </p>
-        <p style={{marginLeft:"25%", fontSize:"20px"}}>Registrant name</p>
+        <p style={{ marginLeft: "25%", fontSize: "20px" }}>Registrant name</p>
         <div className="Registry_BodyFlex">
-          <input type="text" placeholder="Search by Registrant name" style={{width:"20%", marginLeft:"-14%",fontWeight:"450", paddingLeft:"6px"}}/>
+          <input
+            type="text"
+            placeholder="Search by Registrant name"
+            style={{
+              width: "20%",
+              marginLeft: "-14%",
+              fontWeight: "450",
+              paddingLeft: "6px",
+            }}
+          />
           <select>
             <option>Wedding Registry</option>
             <option>Baby Registry</option>
@@ -60,7 +69,7 @@ const Registry = () => {
               paddingLeft: "50px",
               fontWeight: "600",
               fontSize: "20px",
-              cursor:"pointer"
+              cursor: "pointer",
             }}
           >
             <buton className="Registry_BodyFlex_Button"> Search </buton>
