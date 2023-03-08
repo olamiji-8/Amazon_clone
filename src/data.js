@@ -152,63 +152,63 @@ export const Sell =[
 export const subSell =[
     {
         id:1,
-        img:"",
+        img:"https://m.media-amazon.com/images/G/01/sp-marketing-toolkit/guides/design/iconography/Mobile_App.svg",
         title:"What is ecommerce?",
         description:"Electronic commerce (ecommerce) is the trading of goods and services on the internet. Learn about the advantages and disadvantages of this selling channel.",
         link:"Intro to ecommerce" 
     },
     {
         id:2,
-        img:"",
+        img:"https://m.media-amazon.com/images/G/01/sp-marketing-toolkit/guides/design/iconography/Line_Chart.svg",
         title:"Build a business",
         description:"For entrepreneurs and growing businesses, ecommerce can be a profitable model to adapt either as the sole focus of your business, or as an additional selling channel.",
         link:"Ecommerce business guide" 
     },
     {
         id:3,
-        img:"",
+        img:"https://m.media-amazon.com/images/G/01/sp-marketing-toolkit/guides/design/iconography/Delivery_Truck.svg",
         title:"Ecommerce fulfillment",
         description:"Ecommerce fulfillment is a vital ingredient to growing a successful online retail channel. Here’s what to consider when looking for an order fulfillment service.",
         link:"Learn about fulfillment" 
     },
     {
         id:4,
-        img:"",
+        img:"https://m.media-amazon.com/images/G/01/sp-marketing-toolkit/guides/design/iconography/Products_In_Boxes.svg",
         title:"Inventory management",
         description:"Maintaining the right amount of inventory to meet demand can help keep your business humming. Get effective inventory management tips for ecommerce business owners.",
         link:"Intro to inventory" 
     },
     {
         id:5,
-        img:"",
+        img:"https://m.media-amazon.com/images/G/01/sp-marketing-toolkit/guides/design/iconography/Checklist.svg",
         title:"What is dropshipping?",
         description:"This guide covers the definition of dropshipping, how it works, pros and cons, related Amazon policies, and alternatives to consider for ecommerce businesses.",
         link:"Learn about dropshipping" 
     },
     {
         id:6,
-        img:"",
+        img:"https://m.media-amazon.com/images/G/01/sp-marketing-toolkit/guides/design/iconography/Stores.svg",
         title:"Create an Amazon storefront",
         description:"Learn how to tell your brand story using Amazon tools. Build immersivei storefronts and customize product detail pages with rich media and content.",
         link:"Build an online store" 
     },
     {
         id:7,
-        img:"",
+        img:"https://m.media-amazon.com/images/G/01/sp-marketing-toolkit/guides/design/iconography/Books.svg",
         title:"Sell books on Amazon",
         description:"Learn how to sell used books, new books, or your own self-published books. We've got the steps to help you get started—and seven tips to help you succeed.",
         link:"Sell your books" 
     },
     {
         id:8,
-        img:"",
+        img:"https://m.media-amazon.com/images/G/01/sp-marketing-toolkit/guides/design/iconography/Seller_University._CB424651257_.svg",
         title:"Seller University",
         description:"Our online training program is designed to help brands, businesses, and entrepreneurs learn how to succeed as Amazon selling partners.",
         link:"Go to Seller U" 
     },
     {
         id:9,
-        img:"",
+        img:"https://m.media-amazon.com/images/G/01/sp-marketing-toolkit/guides/design/iconography/Spotlight._CB424651253_.svg",
         title:"Amazon Selling Partner Blog",
         description:"Read updates, articles, and stories about getting started in ecommerce and growing your business in Amazon stores.",
         link:"Read the blog" 
