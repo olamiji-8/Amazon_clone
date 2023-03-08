@@ -148,3 +148,69 @@ export const Sell =[
         link:"Protect your brand"
     }
 ]
+
+export const subSell =[
+    {
+        id:1,
+        img:"",
+        title:"What is ecommerce?",
+        description:"Electronic commerce (ecommerce) is the trading of goods and services on the internet. Learn about the advantages and disadvantages of this selling channel.",
+        link:"Intro to ecommerce" 
+    },
+    {
+        id:2,
+        img:"",
+        title:"Build a business",
+        description:"For entrepreneurs and growing businesses, ecommerce can be a profitable model to adapt either as the sole focus of your business, or as an additional selling channel.",
+        link:"Ecommerce business guide" 
+    },
+    {
+        id:3,
+        img:"",
+        title:"Ecommerce fulfillment",
+        description:"Ecommerce fulfillment is a vital ingredient to growing a successful online retail channel. Here’s what to consider when looking for an order fulfillment service.",
+        link:"Learn about fulfillment" 
+    },
+    {
+        id:4,
+        img:"",
+        title:"They’re here, introduce yourself",
+        description:"Hundreds of millions of worldwide active customer accounts. More than 200 million paid Prime members worldwide. Reduce the time, effort, and money you spend on customer acquisition with powerful ad products, unparalleled organic traffic, and a shopping experience that converts.",
+        link:"How to get started" 
+    },
+    {
+        id:5,
+        img:"",
+        title:"They’re here, introduce yourself",
+        description:"Hundreds of millions of worldwide active customer accounts. More than 200 million paid Prime members worldwide. Reduce the time, effort, and money you spend on customer acquisition with powerful ad products, unparalleled organic traffic, and a shopping experience that converts.",
+        link:"How to get started" 
+    },
+    {
+        id:6,
+        img:"",
+        title:"They’re here, introduce yourself",
+        description:"Hundreds of millions of worldwide active customer accounts. More than 200 million paid Prime members worldwide. Reduce the time, effort, and money you spend on customer acquisition with powerful ad products, unparalleled organic traffic, and a shopping experience that converts.",
+        link:"How to get started" 
+    },
+    {
+        id:7,
+        img:"",
+        title:"They’re here, introduce yourself",
+        description:"Hundreds of millions of worldwide active customer accounts. More than 200 million paid Prime members worldwide. Reduce the time, effort, and money you spend on customer acquisition with powerful ad products, unparalleled organic traffic, and a shopping experience that converts.",
+        link:"How to get started" 
+    },
+    {
+        id:8,
+        img:"",
+        title:"They’re here, introduce yourself",
+        description:"Hundreds of millions of worldwide active customer accounts. More than 200 million paid Prime members worldwide. Reduce the time, effort, and money you spend on customer acquisition with powerful ad products, unparalleled organic traffic, and a shopping experience that converts.",
+        link:"How to get started" 
+    },
+    {
+        id:9,
+        img:"",
+        title:"They’re here, introduce yourself",
+        description:"Hundreds of millions of worldwide active customer accounts. More than 200 million paid Prime members worldwide. Reduce the time, effort, and money you spend on customer acquisition with powerful ad products, unparalleled organic traffic, and a shopping experience that converts.",
+        link:"How to get started" 
+    }
+]
