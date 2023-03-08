@@ -26,6 +26,12 @@ const Sell = () => {
                 <p>Learn more</p>
             </div>
         </div>
+        <div>
+            <p>Sell more with Amazon</p>
+            <div>
+                
+            </div>
+        </div>
     </div>
   )
 }
