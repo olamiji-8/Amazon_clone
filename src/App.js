@@ -11,6 +11,7 @@ import Footer from './Pages/Footer/Footer';
 import GiftCardRight from './Component/GiftCard/GiftCardRight';
 import Registry from './Pages/Registry/Registry';
 import GiftCard from './Pages/GiftCard/GiftCard';
+import Sell from './Pages/Sell/Sell';
 
 
 
@@ -27,6 +28,7 @@ function App() {
       <Route path='/Product' element={<Product/>}></Route>
       <Route path='/Registry' element={<Registry/>}></Route>
       <Route path='/Gift Card' element={<GiftCard/>}></Route>
+      <Route path='/Sell' element={<Sell/>}></Route>
       <Route path='/Signin' element={<Signin/>}></Route>
       <Route path='/Signup' element={<Signup/>}></Route>
       
